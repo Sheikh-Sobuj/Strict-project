@@ -134,6 +134,7 @@ header {
     height: 100px;
     margin: auto auto;
     overflow: hidden;
+    border-radius: 3px;
 }
 
 .details-img img {
@@ -441,9 +442,11 @@ form {
     margin-left: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform .5s ease;
 }
 .footer-icon:hover{
     background: var(--black);
+    transform: scale(1.2);
 }
 
 /*---responsive style-----*/
