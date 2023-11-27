@@ -440,6 +440,7 @@ form {
     height: 40px;
     margin-left: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .footer-icon:hover{
     background: var(--black);
