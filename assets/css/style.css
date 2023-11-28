@@ -46,7 +46,7 @@ header {
     padding: 5px 0;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -78,6 +78,7 @@ header {
     color: var(--white);
     font-size: 120px;
     font-family: 'Lato', sans-serif;
+    font-weight: 800;
     margin-bottom: 20px;
 }
 
@@ -434,7 +435,7 @@ form {
 }
 .copyright p{
     color: var(--gray);
-    font-size: 16px;
+    font-size: 18px;
 }
 .footer-icons{
     display: flex;
@@ -472,12 +473,12 @@ form {
     }
 
     .banner-details p {
-        font-size: 16px;
+        font-size: 18px;
     }
     .banner-btn button {
         width: 140px;
         height: 50px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .testimonial-desc h2 {
         font-size: 30px;
@@ -565,11 +566,6 @@ form {
         font-size: 24px;
     }
 
-    .testimonial-desc p {
-        color: var(--gray);
-        font-size: 12px;
-    }
-
     .details-img img {
         width: 22px;
     }
@@ -583,35 +579,18 @@ form {
         font-size: 16px;
     }
 
-    .service-details p {
-        font-size: 12px;
-    }
-
     .showcase-heading h2 {
         font-size: 20px;
-    }
-
-    .showcase-heading p {
-        font-size: 12px;
     }
     form {
         width: 100%;
     }
-    .checkbox {
-        font-size: 12px;
-    }
-    .form-btn button {
-        width: 70px;
-        height: 25px;
-        font-size: 12px;
-    }
+
     .copyright{
         display: flex;
         justify-content: center;
     }
-    .copyright p{
-        font-size: 14px;
-    }
+
     .footer-icons {
         display: flex;
         justify-content: center;
@@ -619,7 +598,6 @@ form {
     .footer-icon{
         width: 30px;
         height: 30px;
-
     }
 
 }
