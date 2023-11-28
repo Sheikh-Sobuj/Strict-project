@@ -112,6 +112,37 @@ header {
     border: none;
 }
 
+.arrow-down{
+    margin-top: 120px;
+}
+
+.fa-chevron-down {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+    -moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+    animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+    0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+    0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+    0%   { transform:translate(0,-20px); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { transform:translate(0,20px); opacity: 0; }
+}
+
+
 /*---testimonial area----*/
 .testimonial-area {
     background: var(--white);
@@ -479,6 +510,9 @@ form {
         width: 140px;
         height: 50px;
         font-size: 16px;
+    }
+    .fa-chevron-down{
+        font-size: 22px;
     }
     .testimonial-desc h2 {
         font-size: 30px;
