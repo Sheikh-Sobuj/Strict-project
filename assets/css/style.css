@@ -44,7 +44,12 @@ img {
 header {
     background: var(--white);
     padding: 5px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 
 .navbar-brand img {
     width: 120px;
